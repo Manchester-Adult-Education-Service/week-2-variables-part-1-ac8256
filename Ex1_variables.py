@@ -41,6 +41,10 @@ print("-------------------------------------------\n"
 # print(f"My favourite colour is {colour}")
 
 # Write your code below:
+name = "Alice"
+age = 25
+food = "pizza"
+print(f"Hello, {name}!")
 
 
 # -------------------------------------------
@@ -63,6 +67,9 @@ print("\n-------------------------------------------\n"
 # print(f"Your double score is {score * 2}")
 
 # Write your code below:
+print(f"{name} is {age} years old.")
+print(f"In 5 years, {name} will be {age+5}.")
+print(f"{name} really likes {food}.")
 
 
 # -------------------------------------------
@@ -78,7 +85,13 @@ print("\n-------------------------------------------\n"
 # 3. Print the same 4 sentences as above, but for Bob.
 
 # Write your code below:
+name2 = "Bob"
+age2 = 20
+food2 = "hamburger"
 
+print(f"{name2} is {age2} years old.")
+print(f"In 5 years, {name2} will be {age2+5}.")
+print(f"{name2} really likes {food2}.")
 
 # -------------------------------------------
 # CHECKPOINT: WHAT IS GIT?
@@ -115,6 +128,8 @@ print("\n-------------------------------------------\n"
 # print(f"{city} sounds like a lovely place!")
 
 # Write your code below:
+extension1_input_name = input("What's your name?")
+print(f"Hello, {extension1_input_name}!")
 
 
 # Extension 2: Integer Conversion
@@ -128,6 +143,9 @@ print("\n-------------------------------------------\n"
 # Ask the user for their age and tell them how old they will be next year.
 
 # Write your code below:
+extension2_input_age = input("What's your age?")
+extension2_input_age=int(extension2_input_age)+1
+print(f"You will be {extension2_input_age} next year!")
 
 
 # Extension 3: Case Formatting
@@ -144,7 +162,7 @@ print("\n-------------------------------------------\n"
 # print(name.capitalize())
 
 # Write your code below:
-
+print(food.upper())
 
 # -------------------------------------------
 # SAVE YOUR PROGRESS
@@ -171,6 +189,20 @@ print("\n-------------------------------------------\n"
 #    Otherwise, print "Account type: Junior".
 
 # Write your code below:
+advanced_input_name = input("What's your name?")
+advanced_input_age = input("What's your age?")
+advanced_input_hometown = input("What's your hometown?")
+advanced_input_favouritefood = input("What's your favourite food?")
+
+
+print(f"Name: {advanced_input_name}")
+print(f"Age: {advanced_input_age}")
+print(f"Hometown: {advanced_input_hometown}")
+print(f"Favourite food: {advanced_input_favouritefood}")
+if int(advanced_input_age) >= 18:
+    print(f"Account type: Adult")
+else:
+    print(f"Account type: Junior")
 
 
 # -------------------------------------------
